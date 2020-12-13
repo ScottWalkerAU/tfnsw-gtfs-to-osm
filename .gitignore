@@ -1,0 +1,7 @@
+.bundle/
+.idea/
+
+data/*.csv
+data/*.txt
+out/*.csv
+out/*.txt
