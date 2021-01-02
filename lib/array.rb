@@ -10,6 +10,7 @@ class  Array
     FileUtils.mkdir_p(File.dirname(filepath))
     FileUtils.rm_f(filepath)
 
+    puts "Saving #{size} rows to #{filepath}"
     CSV.open(filepath, 'wb') do |csv|
       headers = first.keys
       csv << headers
