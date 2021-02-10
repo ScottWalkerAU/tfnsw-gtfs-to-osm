@@ -5,3 +5,5 @@ data/*.csv
 data/*.txt
 out/*.csv
 out/*.txt
+suburbs/*.json
+suburbs/parsed.csv

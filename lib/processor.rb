@@ -41,9 +41,9 @@ class Processor
       mapped << map(row)
     end
 
-    selected.to_csv(SELECTED)
-    mapped.to_csv(MAPPED)
-    ignored.to_csv(IGNORED)
+    selected.to_csv!(SELECTED)
+    mapped.to_csv!(MAPPED)
+    ignored.to_csv!(IGNORED)
   end
 
   private

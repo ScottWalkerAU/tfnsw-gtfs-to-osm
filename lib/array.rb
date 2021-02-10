@@ -6,7 +6,7 @@ require 'fileutils'
 # Monkey patch
 # https://gist.github.com/christiangenco/8acebde2025bf0891987
 class  Array
-  def to_csv(filepath = 'out.csv')
+  def to_csv!(filepath = 'out.csv')
     FileUtils.mkdir_p(File.dirname(filepath))
     FileUtils.rm_f(filepath)
 
