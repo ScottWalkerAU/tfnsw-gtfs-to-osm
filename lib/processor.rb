@@ -7,7 +7,7 @@ class Processor
   READ_MODE = 'r:bom|utf-8' # Remove BOM char from header row
 
   IN_STOPS = 'data/stops.txt'
-  SELECTED = 'out/stops.csv'
+  SELECTED = 'out/stops-raw.csv'
   MAPPED = 'out/stops-mapped.csv'
   IGNORED = 'out/stops-ignored.csv'
 
