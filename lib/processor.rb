@@ -24,7 +24,7 @@ class Processor
       end
 
       selected << row.to_h
-      mapped << Mapper.map(row.to_h)
+      mapped << Mapper.map(row)
     end
 
     selected.to_csv!(SELECTED)
