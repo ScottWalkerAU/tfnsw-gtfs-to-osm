@@ -3,8 +3,8 @@
 require 'csv'
 require_relative '../lib/array'
 
-PARSED='suburbs/parsed.csv'
-MASTER='suburbs/suburbs.csv'
+PARSED='progress/parsed.csv'
+MASTER='progress/suburbs.csv'
 
 def run
   master = read_csv(MASTER)

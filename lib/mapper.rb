@@ -18,6 +18,7 @@ class Mapper
 
   NAME_MAP = {
     'After' => 'after',
+    'And' => 'and', # Legacy
     'At' => 'at',
     'Before' => 'before',
     'Opp' => 'opposite',
@@ -33,17 +34,21 @@ class Mapper
     'Ct' => 'Court',
     'Dr' => 'Drive',
     'Gr' => 'Grove',
+    'Gdns' => 'Gardens',
     'Hwy' => 'Highway',
     'La' => 'Lane',
     'Mt' => 'Mount',
+    'Mwy' => 'Motorway',
     'Nth' => 'North',
     'Pde' => 'Parade',
     'Pkwy' => 'Parkway',
     'Pl' => 'Place',
     'Rd' => 'Road',
+    'Sgt' => 'Sergeant',
     'St' => 'Street',
     'Sth' => 'South',
     'Tce' => 'Terrace',
+    'Trk' => 'Track',
     'Twy' => 'T-Way'
   }
 

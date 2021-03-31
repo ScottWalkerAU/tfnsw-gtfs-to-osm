@@ -4,8 +4,8 @@ require 'csv'
 require 'json'
 require_relative '../lib/array'
 
-EXPORT='suburbs/export.json'
-PARSED='suburbs/parsed.csv'
+EXPORT='progress/export.json'
+PARSED='progress/parsed.csv'
 
 def run
   data = JSON.parse(File.read(EXPORT))

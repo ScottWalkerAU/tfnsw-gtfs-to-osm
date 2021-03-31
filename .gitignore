@@ -1,9 +1,10 @@
 .bundle/
 .idea/
+.~lock.*
 
 data/*.csv
 data/*.txt
 out/*.csv
 out/*.txt
-suburbs/*.json
-suburbs/parsed.csv
+progress/*.json
+progress/parsed.csv
