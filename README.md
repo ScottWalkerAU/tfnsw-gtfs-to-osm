@@ -14,14 +14,12 @@ Transforms GTFS data for TfNSW bus stops from `stops.txt` and produces:
 2. Extract to `data/`
 3. Run `ruby bin/process.rb`
 
-### Updating suburb list
-This shouldn't need to be done too often, but the steps are:
-1. Obtain a new suburb export from [Overpass](https://overpass-turbo.eu) with the query `admin_level=10 in "New South Wales"`
-2. Export the result as "raw OSM data" into the `suburb/` folder
-3. Run `ruby bin/parse_suburbs.rb` to create the intermediate CSV
-4. Run `ruby bin/merge_suburbs.rb` to conflate the two CSV files
+### Updating Progress
+Initial imports are being done suburb-by-suburb.
 
-Note: To avoid updating every line, the file may need to be resaved to remove empty strings
+After this, delta imports may be done on a Local Government Area (LGA) basis.
+Note: some suburbs are split across multiple LGAs
 
 ## Caveats
 Presently unable to detect light rail stops or wharves.
+These should be omitted manually during the import, with the aid of local or contextual knowledge.
