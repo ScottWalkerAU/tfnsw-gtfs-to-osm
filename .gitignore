@@ -6,5 +6,3 @@ data/*.csv
 data/*.txt
 out/*.csv
 out/*.txt
-progress/*.json
-progress/parsed.csv
